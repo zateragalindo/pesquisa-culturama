@@ -3,12 +3,3 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-fieldset {
-  display: flex;
-  flex-direction: column;
-}
-
-input {
-  margin-bottom: 20px;
-}
