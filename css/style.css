@@ -96,3 +96,24 @@ p {
   margin-bottom: 1.5rem;
   font-weight: bold;
 }
+
+button {
+  width: 10rem;
+  height: 3rem;
+  margin-right: 1rem;
+
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+
+  cursor: pointer;
+}
+
+button[type='submit']:hover {
+  background-color: green;
+  color: white;
+}
+
+button[type='reset']:hover {
+  background-color: red;
+  color: white;
+}
