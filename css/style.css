@@ -79,3 +79,20 @@ input[type='color'] {
   width: 4rem;
   padding: 0 0.5rem;
 }
+
+input:invalid,
+select:invalid,
+textarea:invalid {
+  border-color: red;
+}
+
+input:valid,
+select:valid,
+textarea:valid {
+  border-color: green;
+}
+
+p {
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
