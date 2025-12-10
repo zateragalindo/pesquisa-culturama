@@ -56,6 +56,15 @@ label {
   margin-bottom: 0.5rem;
 }
 
+input[type='tel'] {
+  margin-bottom: 0;
+}
+
+#phone-help {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
 input,
 select,
 textarea {
